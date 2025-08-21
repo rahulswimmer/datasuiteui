@@ -2,7 +2,7 @@ import { Menu, RefreshCcw, UserCircle2 } from "lucide-react";
 
 export function Header({ onToggleSidebar }: { onToggleSidebar: () => void }) {
   return (
-    <header className="sticky top-0 z-20 border-b bg-white/90 dark:bg-gray-900/90 backdrop-blur">
+    <header className="sticky top-0 z-50 border-b bg-brand text-white">
       <div className="flex items-center justify-between px-4 py-3">
         <div className="flex items-center gap-3">
           <button className="p-2 rounded-md hover:bg-gray-100 dark:hover:bg-gray-800" onClick={onToggleSidebar} aria-label="Toggle navigation">
