@@ -1,18 +1,22 @@
-import defaultTheme from 'tailwindcss/defaultTheme'
-
+/** @type {import('tailwindcss').Config} */
 export default {
-  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
+  content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+  ],
   theme: {
     extend: {
       fontFamily: {
-        sans: ["Shape Sans", "Arial", ...defaultTheme.fontFamily.sans],
+        sans: ["Shape Sans", "Arial", "sans-serif"],
       },
       colors: {
-        brand: {
-          DEFAULT: "#143275",   // 👈 our header color
+        skanska: {
+          blue: "#143275",
+          gray: "#ECECEC",
+          green: "#3ECE7B",
         },
       },
     },
   },
   plugins: [],
-}
+};

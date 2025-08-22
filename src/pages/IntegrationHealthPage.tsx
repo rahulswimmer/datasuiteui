@@ -30,7 +30,6 @@ export default function IntegrationHealthPage() {
       <div className="flex items-center justify-between">
         <div>
           <h1 className="text-2xl font-semibold tracking-tight">Integration Health</h1>
-          <p className="text-sm opacity-70">Unified view across Data Factory, Function Apps, Databricks, Logic Apps.</p>
         </div>
         <button className="px-3 py-2 border rounded-md hover:bg-gray-50 dark:hover:bg-gray-800 flex items-center">
           <Settings className="h-4 w-4 mr-2" /> Preferences
